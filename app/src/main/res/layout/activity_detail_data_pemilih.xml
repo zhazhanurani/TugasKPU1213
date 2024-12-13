@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailDataPemilih"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Data Pemilih"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="50dp"/>
+
+        <TextView
+            android:id="@+id/detail_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/baseline_account_circle_24"
+            android:drawablePadding="10dp"
+            android:background="@drawable/square"
+            android:text="Nama Pemilih"/>
+
+
+
+        <TextView
+            android:id="@+id/detail_nik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/baseline_edit_document_24"
+            android:drawablePadding="10dp"
+            android:background="@drawable/square"
+            android:text="NIK"/>
+
+        <TextView
+            android:id="@+id/detail_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/baseline_lock_person_24"
+            android:drawablePadding="10dp"
+            android:background="@drawable/square"
+            android:text="Gender"/>
+
+
+
+
+        <TextView
+            android:id="@+id/detail_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:drawableLeft="@drawable/baseline_maps_home_work_24"
+            android:background="@drawable/square"
+            android:drawablePadding="10dp"
+            android:text="Alamat"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:backgroundTint="@color/red"
+            android:text="Simpan"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
